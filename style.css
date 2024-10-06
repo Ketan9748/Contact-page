@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    color: darkslategray;
+  }
+  body{
+    /* padding: 250px; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 237, 232);
+    padding: 10px;
+  }
+  .container{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px; 
+    border-radius: 10px;
+  }
+  .container h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .fullname {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fname {
+    display: grid;
+    gap: 15px;
+    margin: 10px;
+  }
+  .message textarea{
+    height: 150px;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .fname input{
+    border-radius: 7px;
+    height: 30px;
+    width: 250px;
+    cursor: pointer;
+  }
+  .lname{
+    margin-left: 70px;
+  }
+  .email input{
+    width: 600px;
+  }
+  .queryContainer{
+    display: grid;
+    gap: 15px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .query {
+    display: flex ;
+    flex-wrap: wrap;
+    margin: 0 15px 15px 0;
+    gap: 15px;
+    /* width: 500px; */
+    cursor: pointer;
+  }
+  .general {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 250px;
+    height: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  .general input{
+    margin: 10px;
+    cursor: pointer;
+  }
+  .checkbox{
+    margin: 25px 0 25px 0;
+    cursor: pointer;
+  }
+  .button{
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(9, 154, 117, 0.71);
+    font-weight: 500;
+    font-size: 19px;
+    cursor: pointer;
+  }
+  img{
+    width: 20px;
+    height: 20px;
+  }
+  .error{
+    color:rgb(242, 18, 18);
+    font-size:16px;
+    margin-top: 5px;
+  }
+
+  .success{
+    border-color: #0cc477;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
